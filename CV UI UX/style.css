@@ -1,0 +1,134 @@
+*, 
+ html {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+    border-radius: 10px;
+}
+        
+body {
+    background-color: #f5f5f5;
+    padding: 20px;
+    color: #333;
+}
+        
+.cv-container {
+    max-width: 800px;
+    margin: 0 auto;
+    background-color: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 30px;
+    position: relative;
+}
+
+.header {
+    position: relative;
+    text-align: center;
+    padding: 2px;
+    margin: 1px ;
+}
+        
+.header h1 {
+    font-size: 28px;
+    margin-bottom: 20px;
+    text-transform: uppercase;  
+}
+
+.foto-cv {
+    display:flex;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border:3px solid #333
+}
+
+.header-hr{
+    margin: 20px;
+}
+
+p {
+    margin-bottom: 15px;
+    border-bottom: 1px solid #333;
+    padding-bottom: 5px;
+    border-radius: 20px;
+}
+
+b {
+    display: inline-block;
+    width: 150px;
+}
+
+.info-label {
+    font-weight: bold;
+    min-width: 150;
+}
+        
+.info-value {
+    text-align: right;
+    flex-grow: 1;
+}
+        
+.section {
+    margin-bottom: 25px;
+}
+        
+.section-title {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 15px;
+    border-bottom:10px solid #333;
+    padding-bottom: 5px;
+    color: #333;
+}
+        
+.timeline {
+    margin-left: 20px;
+}
+        
+.timeline-item {
+    margin-bottom: 15px;
+    border-bottom: 1px solid #333;
+    padding-bottom: 5px;
+    display: flex;
+}
+        
+.timeline-years {
+    font-weight: bold;
+    min-width: 120px;
+}
+        
+.timeline-content {
+    flex-grow: 1;
+}
+        
+.bullet-list {
+    margin-left: 20px;
+    list-style-type: none;
+}
+        
+.bullet-list li {
+    margin-bottom: 8px;
+    border-bottom: 1px solid #333;
+    padding-bottom: 5px;
+    border-radius: 20px;
+}
+        
+.footer {
+    margin-top: 30px;
+    text-align: center;
+    font-size: 14px;
+    color: #666;
+    border-top: 1px solid #ccc;
+    padding-top: 15px;
+}
+        
+.candidate-label {
+    position: absolute;
+    top: 30px;
+    right: 30px;
+    background-color: #333;
+    color: white;
+    padding: 5px 10px;
+    font-weight: bold;
+}
